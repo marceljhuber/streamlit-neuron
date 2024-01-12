@@ -1,17 +1,17 @@
 """
 Streamlit Cheat Sheet
 
-App to summarise streamlit docs v1.25.0
+App to summarise streamlit docs v1.28.0
 
 
 
 https://github.com/daniellewisDL/streamlit-cheat-sheet
 
-v1.25.0
-20 August 2023
+v1.28.0
+12 January 2024
 
 Modified by:
-    @janisjoy69 : https://gihub.com/janisjoy69
+    @JanisJoy : https://gihub.com/janisjoy
 
 Author:
     @daniellewisDL : https://github.com/daniellewisDL
@@ -73,6 +73,8 @@ def cs_sidebar():
 
     st.sidebar.markdown(f"Start the challenge [here](https://30days-tmp.streamlit.app).")
 
+    st.sidebar.markdown(f"For inspiration you can look at some [demos](https://streamlit.io/gallery)")
+    
     st.sidebar.header('Streamlit cheat sheet')
 
     st.sidebar.markdown('''
@@ -160,7 +162,8 @@ st.write(['st', 'is <', 3]) # see *
 st.title('My title')
 st.header('My header')
 st.subheader('My sub (like Display text)')
-# like st.write(), but with horizontal rule after (what you can see in the whole cheat sheet):
+# like st.write(), but with horizontal rule after
+# (what you can see in the whole cheat sheet):
 st.code('for i in range(8): foo()')
 
 # * optional kwarg unsafe_allow_html = True
